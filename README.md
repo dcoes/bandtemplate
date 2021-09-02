@@ -35,6 +35,6 @@ Inspiration and sites looked at:
 
 •	Spanishlovesongs.com (kind of nice scroll down, revealing the images, and finally getting to what matters – reservations to the actual live events. – will have to check as bands I am probably working with won’t have a tour system in place)
 
-•	Mogwai – more or less functional, but not very exciting
+•	Mogwai.scot – more or less functional, but not very exciting
 
 
