@@ -14,7 +14,9 @@ Features:
 
 •	Subscribe to mailing list (for shows, etc)
 
-•	Discography (linking where to buy or stream):
+•	Discography (linking where to buy or stream)
+
+
 
 The landing page: 
 This page will feature a nice professional image (hero-image) of the band of some sort.
@@ -27,6 +29,8 @@ a collection of photos curated by the band.
 
 News: 
 a collection of Instagram articles to keep the page alive.
+
+
 
 Inspiration and sites looked at: 
 •	ilovemetric.com (do not like the navigation not always being accessible)
