@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Fredericka+the+Great&family=Special+Elite&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    font-family: 'Special Elite', 'Courier New', Courier, monospace;
+}
+
+#menu {
+    background-color:black;
+    color: white;
+    /*font-family: 'Cinzel Decorative', cursive;*/
+    /*font-family: 'Fredericka the Great', cursive;*/
+
+}
+
+#menu h1 {
+font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+}
+
+/*Attributes of menu links in default state*/
+#menu a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Attributes of menu links in hover state.*/
+#menu a:hover {
+    border-bottom: 1px solid #fafafa;
+}
+
+#main-img {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/VolapuqueAlbumCover.jpg') no-repeat center center;
+
+    /* animates zoom effect on loading page 
+    animation-name: main-img-zoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+    */
+}
+
+#img-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+/* creates the level of zoom for hero image */
+@keyframes main-img-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+
