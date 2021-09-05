@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 
 <!--Need way to figure out language from IP location-->
-<html lang="br">
+<html lang="br, en">
 <head>
         <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,6 +27,11 @@
                     </li>
 
                     <li>
+                        <h3><a href="#about">About</a></h3>
+                        
+                    </li>
+
+                    <li>
                         <h3><a href="#disco">Discography</a></h3>
                         
                     </li>
@@ -36,11 +41,11 @@
                     </li>
 
                     <li>
-                        <h3><a href="#contact">Contact</a></h3>
+                        <h3><a href="contact.html">Contact</a></h3>
                     </li>
 
                     <li>
-                        <h3><a href="links">Extra</a></h3>
+                        <h3><a href="links.html">Extra</a></h3>
                     </li>
 
                 </ul>
@@ -64,43 +69,72 @@
     </section>
 -->
     <section class="container" id="news">
-        <div id="img-outer">
-            <div class="text-block">
+        <div style="background-image:url(assets/images/main_img_bg.jpg); background-size:cover; height:600px; background-repeat:no-repeat;">
+            
+            <div class="text-background-right">
+                <div class="over-text">
                 <p>News</p>
                 <br>
-                <p>Volapuque acaba de ganhar um site. bla bla bla. 
-                    Muita coisa importante pra falar aqui. Serio mesmo. 
-                    Fica esperando que vai acontecer uma animacao daqui a pouco. 
-                    Talvez demore a carregar, mas espera ai que vale a pena.</p>
+                <p>Welcome to Volapuque's site. bla bla bla. You'll find out more about this band in the coming sections.
+                    My goal here right now is to get this thing off the ground while I wait for them to give me content.
+                    There's a lot of stuff to talk about, I just don't know what to say yet.
+                    As media goes, most bands and just people in general are using a lot of social media these days. 
+                    I would like to embed a feed from their account into this section here. 
+                    I've seen several plugins out there, many involving a feed into a wordpress blog account, which seems doable.
+                    I don't use instagram myself, but if anyone can point me in the right direction, I'm all ears.</p>
+                </div>
+                
             </div> 
         </div>
      </section>
 
 
-    <section id="disco">
+     <section class="container" id="about">
+        <div style="background-image:url(assets/images/VolapuqueSofa.jpg); background-size: cover; height: 800px; background-repeat:no-repeat;">
+            
+            <div class="text-background-right">
+                <div class="over-text">
+                <p>About</p>
+                <br>
+                <p>Volapuque is a Brazilian experimental band from Vitória ES, Brazil with its roots in punk and and indepenent music. It was formred sometime around 2010 or so. 
+                    More information coming soon. This is placeholder text, yadda, yadda yadda.</p>
+                    <br>
+                    <p>But, no really. You should check them out. And do finish all the rest of this article. It took a long time to come up with this stuff. Despite all that, Volapuque is a real band, and their bassist said he'd get me some official info. So enjoy what you see for now.</p>
+                </div>
+                
+            </div> 
+        </div>
+     </section>
 
-        <img src="assets/images/disco_bg2.jpg" alt="disco-groove">
-        <h2>DISCOGRAFIA:</h3>
-        <ul>
-            <li>
-                item 1
-            </li>
-            <li>
-                item 2
-            </li>
-            <li>
-                item 3
-            </li>
-            <li>
-                item 4
-            </li>
-        </ul>
+     <section class="container" id="disco">
+        <div style="background-image:url(assets/images/disco_bg.jpg); background-size: cover; height:600px; background-repeat:no-repeat;">
+            
+            <!--replace with "left" once right is working correctly:-->
+            <div class="text-background-right">
+                <div class="over-text">
+                <h2>Discography</h2>
+                <br>
+                <ul>
+                    <li>
+                        Item 1
+                        <a href="amazon.com"><img src="assets/images/icons/amazon-music.svg" alt="amazon-music", style="height: 50px;"></a>
+                        <a href="spotify.com"><img src="assets/images/icons/spotify.svg" alt="spotify", style="height: 50px;"></a>
+                        <a href="deezer.com"><img src="assets/images/icons/deezer.svg" alt="deezer-music", style="height: 50px;"></a>
+                        <a href="applemusic.com"><img src="assets/images/icons/apple-music.svg" alt="apple-music", style="height: 50px;"></a>
+                        <a href="youtube.com"><img src="assets/images/icons/youtube-app.svg" alt="youtube", style="height: 50px;"></a>
+                    </li>
+                </ul>
+                
+            </div> 
+        </div>
+     </section>
+ 
 
     </section>
 
     <footer>
         <nav>
-            <p>Links para mídia social e contato serão inseridas aqui.</p>
+            <p>Social Media links shall be inserted here.</p>
             </nav>
     </footer>
 </body>

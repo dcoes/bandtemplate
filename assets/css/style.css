@@ -12,9 +12,11 @@ body{
     font-family: 'Special Elite', 'Courier New', Courier, monospace;
 }
 
+/*would like to make menu persistant so that it stays on the top*/
 #menu {
     background-color:black;
     color: white;
+
     /*font-family: 'Cinzel Decorative', cursive;*/
     /*font-family: 'Fredericka the Great', cursive;*/
 }
@@ -42,51 +44,25 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     border-bottom: 1px solid #fafafa;
 }
 
-#img-main {
-
-    background: url("../images/main_img_bg.jpg") no-repeat center center;
-
-     /*animates zoom effect on loading page*/ 
-    animation-name: img-main-zoom;
-    animation-duration: 10s;
-    animation-fill-mode: forwards;
-
-}
-
-#img-outer {
-    background: url("../images/main_img_bg.jpg") no-repeat center center;
-    width: 1200px;
-    height: 800px;
-    overflow: hidden;
-    position: relative;
-    align-self: center;
-    z-index: 1;
-}
-
-/* creates the level of zoom for hero image */
-@keyframes img-main-zoom {
-    from{
-        transform: scale(1);
-    }
-    to{
-        transform: scale(1.1);
-    }
-}
-
-
-
 .container{
     position:relative;
 }
 
 /* Bottom right text */
-.text-block {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: rgba(0,0,0,.25);
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
+.text-background-right {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    width:30%;
+    /*Not sure why this isn't working. It was before.*/
     border-radius: 10px;
+    background-color: rgba(0,0,0,.1);
+
+    /*what's up with the background? Not transparent as it should be */
+    background:transparent;
+
+    /*Not working yet. would like it to slide*/
+    animation-name: box-slide-right;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
   }
