@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Fredericka+the+Great&family=Special+Elite&display=swap');
 
+
 * {
     margin: 0;
     padding: 0;
@@ -54,15 +55,34 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     top: 5%;
     left: 5%;
     width:30%;
-    /*Not sure why this isn't working. It was before.*/
+    padding:1%;
     border-radius: 10px;
-    background-color: rgba(0,0,0,.1);
+    /*what's up with this? box looks fine, but where is the ugly black background coming from? see .over-text as well. Same thing.*/
+    background-color: rgba(0,0,0,.25);
 
-    /*what's up with the background? Not transparent as it should be */
-    background:transparent;
-
-    /*Not working yet. would like it to slide*/
+    /*Slides right, but would like to do it only when the box comes into view, rather than when page is loaded.*/
     animation-name: box-slide-right;
-    animation-duration: 5s;
+    animation-duration: 1s;
     animation-fill-mode: forwards;
+  }
+
+  @keyframes box-slide-right {
+      from{
+          transform:translateX(-20%);
+      }
+      to{
+          transform: translateX(0);
+      }
+  }
+
+  .title {
+      background-color: rgba(0,0,0,.1);
+      color: #000000;
+      font-size: 300%;
+  }
+
+  .over-text{
+      background:transparent;
+      color:#fafafa;
+      
   }
