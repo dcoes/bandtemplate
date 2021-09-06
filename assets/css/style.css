@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Fredericka+the+Great&family=Special+Elite&display=swap');
 
 
+/*do I even need this part??*/
 * {
     margin: 0;
     padding: 0;
-    border: none;
-    background-color: #000000;
-    color: #fafafa;
 }
 
 body{
     font-family: 'Special Elite', 'Courier New', Courier, monospace;
+    letter-spacing: 2px;
+    word-spacing: 2px;
 }
 
 /*would like to make menu persistant so that it stays on the top*/
 #menu {
     background-color:black;
     color: white;
+    vertical-align: middle;
 
     /*font-family: 'Cinzel Decorative', cursive;*/
     /*font-family: 'Fredericka the Great', cursive;*/
@@ -56,11 +57,11 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     left: 5%;
     width:30%;
     padding:1%;
+    color:#fafafa;
     border-radius: 10px;
-    /*what's up with this? box looks fine, but where is the ugly black background coming from? see .over-text as well. Same thing.*/
     background-color: rgba(0,0,0,.25);
-
-    /*Slides right, but would like to do it only when the box comes into view, rather than when page is loaded.*/
+    
+    /*Animation Controls*/
     animation-name: box-slide-right;
     animation-duration: 1s;
     animation-fill-mode: forwards;
@@ -76,12 +77,19 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
   }
 
   .title {
-      background-color: rgba(0,0,0,.1);
-      color: #000000;
-      font-size: 300%;
+
+    background-color: rgba(255,255,255,.75);
+    color: #000000;
+    font-size: 200%;
+    transform: skew(30deg);
+
+    /*Animation Controls*/
+    animation-name: box-slide-right;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
   }
 
-  .over-text{
+  #over-text{
       background:transparent;
       color:#fafafa;
       
