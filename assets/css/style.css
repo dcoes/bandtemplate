@@ -94,3 +94,33 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
       color:#fafafa;
       
   }
+
+  /*Media Queries Section:*/
+  @media only screen and (max-width: 750px) {
+
+    .container{
+        position:absolute;
+    }
+   
+    .title {
+
+        background-color: rgba(255,255,255,.75);
+        color: #000000;
+        font-size: 120%;
+        transform: skew(30deg);
+    
+        /*Animation Controls*/
+        animation-name: box-slide-right;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+      }
+
+      @keyframes box-slide-right {
+        from{
+            transform:translateX(-20%);
+        }
+        to{
+            transform: translateX(0);
+        }
+    }
+  }
