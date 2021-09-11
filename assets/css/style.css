@@ -98,9 +98,57 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
   /*Media Queries Section:*/
   @media only screen and (max-width: 750px) {
 
-    .container{
-        position:absolute;
+    /*Menu*/
+    #menu{
+
     }
+
+    #menu h1{
+        font-size: x-large;
+        text-align: center;
+        margin-bottom: 20px;
+        display:list-item;
+    }
+
+    #menu li{
+        
+        float:left;
+        font-size: small;
+        list-style-type: none;
+        margin-right: auto;
+        margin-right: 30px;
+ 
+    }
+
+    /*Body*/
+
+
+    .container{
+        /*Needs something to scale down the image so it fits full size. Currently image's style is embedded in html. Needs way around that.*/
+        
+    }
+
+    /* Bottom right text */
+.text-background-right {
+    position: relative;
+    
+    color:#fafafa;
+    background-color: rgb(0,0,0);
+    
+    /*Animation Controls*/
+    animation-name: box-slide-right;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes box-slide-right {
+      from{
+          transform:translateX(-20%);
+      }
+      to{
+          transform: translateX(0);
+      }
+  }
    
     .title {
 
@@ -123,4 +171,9 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
             transform: translateX(0);
         }
     }
+
+    
+    /*Footer*/
+
+
   }
