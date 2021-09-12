@@ -50,6 +50,22 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     position:relative;
 }
 
+.news-bg{
+    background-image:url(/assets/images/main_img_bg.jpg); background-size:cover; height:600px; background-repeat:no-repeat;
+}
+
+.about-bg{
+    background-image:url(/assets/images/VolapuqueSofa.jpg); background-size:cover; height:600px; background-repeat:no-repeat;
+
+}
+.disco-bg{
+    background-image:url(/assets/images/disco_bg.jpg); background-size:cover; height:600px; background-repeat:no-repeat;
+}
+
+.contact-bg{
+    background-image:url(/assets/images/disco_bg2.jpg); background-size:cover; height:600px; background-repeat:no-repeat;
+}
+
 /* Bottom right text */
 .text-background-right {
     position: relative;
@@ -94,14 +110,9 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
       color:#fafafa;
       
   }
-
+  /*------------------------------------------------------------------------------------------------*/
   /*Media Queries Section:*/
   @media only screen and (max-width: 750px) {
-
-    /*Menu*/
-    #menu{
-
-    }
 
     #menu h1{
         font-size: x-large;
@@ -117,28 +128,25 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
         list-style-type: none;
         margin-right: auto;
         margin-right: 30px;
- 
     }
 
     /*Body*/
+    .about-bg{
+        background-image:url(/assets/images/VolapuqueSofa.jpg); background-size:cover; max-height:200px; background-repeat:no-repeat;    
+        }
 
 
     .container{
         /*Needs something to scale down the image so it fits full size. Currently image's style is embedded in html. Needs way around that.*/
-        
+        display:block;
     }
 
-    /* Bottom right text */
+    /* Bottom right text scaled down */
 .text-background-right {
-    position: relative;
+    position: absolute;
     
     color:#fafafa;
     background-color: rgb(0,0,0);
-    
-    /*Animation Controls*/
-    animation-name: box-slide-right;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
   }
 
   @keyframes box-slide-right {
