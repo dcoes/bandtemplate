@@ -1,18 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--Need way to figure out language from IP location-->
+<html lang="pt, en">
 <head>
-    <meta charset="UTF-8">
+        <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+
+    <!--Imports the style sheet rules here-->
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
+
+
+<!--HEADER - same as Index page-->
 <body>
-    <h1>Subscribe to Newsletter</h1>
-    <form action="">
-        <label for="email">E-mail</label>
-        <input type="text" name="email" id="email" required>
-        <label for="name">Name </label>
-        <input type="text" name="name" id="name">
-    </form>
+    <header>
+        <div id="menu">
+            
+                 <!--Main link. Takes user home when clicked. Replace with official logo if possible.-->
+            <h1><a href="index.html">Volapuque</a></h1>
+                
+            <!--Simple menu as a list. Expected it to be in reverse order.-->
+                <ul>
+
+                    <li>
+                        <h3><a href="contact.html">Contact</a></h3>
+                    </li>
+
+                    <li>
+                        <h3><a href="links.html">Extra</a></h3>
+                    </li>
+
+                    <li>
+                        <h3><a href="gallery.html">Gallery</a></h3>
+                    </li>
+
+                    <li>
+                        <h3><a href="index.html#disco">Discography</a></h3>
+                    </li>
+
+                    <li>
+                        <h3><a href="index.html#about">About</a></h3>  
+                    </li>
+
+                    <li>
+                        <h3><a href="index.html#news">News</a></h3>
+                    </li>
+
+                </ul>
+            
+            <br>
+     
+        </div>
+
+    </header>
+
+
+    <!-- ACTUAL CONTENT HERE-->
+
+    <section class="container">
+        <div class="contact-bg">
+               <!--Section title bar-->
+               <div class="title">Send us an email.</div>
+               <!--content-->
+            <div class="text-background-right">
+                <div class="over-text">        
+                    <form action="">
+                        <label for="email">E-mail<br></label>
+                        <input type="text" name="email" id="email" required><br>
+                        <label for="name">Name<br></label>
+                        <input type="text" name="name" id="name"><br>
+                        <label for="message">Message<br></label>
+                        <input type="textfield" name="message" id="message">
+                        <br>
+                        <br>
+                        <input type="submit" value="send message">
+                    </form>
+                </div>
+                
+            </div> 
+        </div>
+     </section>
+    
+     <footer>
+        <nav>
+            <div class="black-background">
+                <ul class="centered-list">
+                    <li><i class="icons-white">
+                        <a href="spotify.com"><img src="assets/images/icons/Facebook.svg" class="icons-white"></a>
+                        </i>
+                    </li>
+                    <li><i class="icons-white">
+                        <a href="spotify.com"><img src="assets/images/icons/Instagram.svg" class="icons-white"></a>
+                        </i>
+                    </li>      
+                </ul>
+            </div>
+            
+            
+        </nav>
+    </footer>
+    
 </body>
 </html>

@@ -7,6 +7,20 @@
     padding: 0;
 }
 
+.icons-white path{
+    fill:white;
+}
+
+.icons-white{
+
+    max-height: 30px;
+}
+
+.black-background{
+    background-color:#000000;
+    color:#fafafa
+}
+
 body{
     font-family: 'Special Elite', 'Courier New', Courier, monospace;
     letter-spacing: 2px;
@@ -35,6 +49,8 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     padding-left: 5%;
     padding-bottom: 5%;
 }
+
+
 
 /*Attributes of menu links in default state*/
 #menu a {
@@ -111,6 +127,8 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
       color:#fafafa;
       
   }
+
+
   /*------------------------------------------------------------------------------------------------*/
   /*Media Queries Section:*/
   @media only screen and (max-width: 950px) {
@@ -143,9 +161,16 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
         box-sizing: border-box;
         text-align: center;
         line-height: 20px;
+    }
 
+    .centered-list{
 
-        
+        display: flex; justify-content: space-between;
+        font-size: small;
+        list-style-type: none;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 20px;
     }
 
     /*Body*/
