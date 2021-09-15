@@ -18,6 +18,7 @@ body{
     background-color:black;
     color: white;
     vertical-align: middle;
+    line-height: 30px;
 
     /*font-family: 'Cinzel Decorative', cursive;*/
     /*font-family: 'Fredericka the Great', cursive;*/
@@ -112,8 +113,11 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
   }
   /*------------------------------------------------------------------------------------------------*/
   /*Media Queries Section:*/
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: 950px) {
+    
 
+
+    
     #menu h1{
         font-size: x-large;
         text-align: center;
@@ -121,13 +125,27 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
         display:list-item;
     }
 
+    #menu ul{
+        list-style: none;
+        text-align:center;
+        padding:0;
+        margin:0;
+        display: flex; justify-content: space-between;
+
+    }
+
+    /*Trying to get it to line the buttons up in rows*/
     #menu li{
-        
-        float:left;
+
+        display: inline-block;
         font-size: small;
         list-style-type: none;
-        margin-right: auto;
-        margin-right: 30px;
+        box-sizing: border-box;
+        text-align: center;
+        line-height: 20px;
+
+
+        
     }
 
     /*Body*/
