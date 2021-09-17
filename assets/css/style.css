@@ -72,15 +72,15 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
 }
 
 .about-bg{
-    background-image:url(/assets/images/VolapuqueSofa.jpg); background-size:cover; height:600px; background-repeat:no-repeat;
+    background-image:url("/assets/images/VolapuqueSofa.jpg"); background-size:cover; height:600px; background-repeat:no-repeat;
 
 }
 .disco-bg{
-    background-image:url(/assets/images/disco_bg.jpg); background-size:cover; height:600px; background-repeat:no-repeat;
+    background-image:url("/assets/images/disco_bg.jpg"); background-size:cover; height:600px; background-repeat:no-repeat;
 }
 
 .contact-bg{
-    background-image:url(/assets/images/disco_bg2.jpg); background-size:cover; height:600px; background-repeat:no-repeat;
+    background-image:url("/assets/images/disco_bg2.jpg"); background-size:cover; height:600px; background-repeat:no-repeat;
 }
 
 /* Bottom right text */
