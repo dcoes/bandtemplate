@@ -29,7 +29,8 @@ body{
 
 /*would like to make menu persistant so that it stays on the top*/
 #menu {
-    background-color:black;
+
+    background-color:#000000;
     color: white;
     vertical-align: middle;
     line-height: 30px;
@@ -38,11 +39,12 @@ body{
     left:0;
     z-index: 1;
     width: 100vw;
-    
-    /*Note - add margin to the first image to space it from the menu.*/
+}
 
-    /*font-family: 'Cinzel Decorative', cursive;*/
-    /*font-family: 'Fredericka the Great', cursive;*/
+#menu img {
+    vertical-align: middle;
+    float: left;
+    padding: 10px;
 }
 
 #menu h1 {
@@ -53,8 +55,10 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     float: right;
     list-style-type: none;
     margin-right: 30px;
+    padding-top: 30px;
     padding-left: 5%;
     padding-bottom: 5%;
+
 }
 
 
@@ -68,26 +72,67 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
 /*Attributes of menu links in hover state.*/
 #menu a:hover {
     border-bottom: 1px solid #fafafa;
+  
 }
+
+/*similar to the header, this one aligns at the bottom*/
+.footer {
+
+    background-color:#000000;
+    color: white;
+    display: block;
+    position: fixed;
+    bottom:0;
+    left:0;
+    width:100vw;
+    height: 10vh;
+
+}
+
+.footer li {
+
+    list-style-type: none;
+    margin-right: 10px;
+    padding-top: 10px;
+    justify-content:space-evenly;
+
+
+
+}
+
+
 
 .container{
     position:relative;
+
 }
 
 .news-bg{
-    background-image:url("/assets/images/main_img_bg.jpg"); background-size:cover; min-height:600px; background-repeat:no-repeat;
+    background-image:url("../images/main_img_bg.jpg"); 
+    background-size:cover; 
+    min-height:600px; 
+    background-repeat:no-repeat;
 }
 
 .about-bg{
-    background-image:url("/assets/images/VolapuqueSofa.jpg"); background-size:cover; height:600px; background-repeat:no-repeat;
+    background-image:url("../images/VolapuqueSofa.jpg"); 
+    background-size:cover; 
+    height:600px; 
+    background-repeat:no-repeat;
 
 }
 .disco-bg{
-    background-image:url("/assets/images/disco_bg.jpg"); background-size:cover; height:600px; background-repeat:no-repeat;
+    background-image:url("../images/disco_bg.jpg"); 
+    background-size:cover; 
+    height:600px; 
+    background-repeat:no-repeat;
 }
 
 .contact-bg{
-    background-image:url("/assets/images/disco_bg2.jpg"); background-size:cover; height:600px; background-repeat:no-repeat;
+    background-image:url("../images/disco_bg2.jpg"); 
+    background-size:cover; 
+    height:600px; 
+    background-repeat:no-repeat;
 }
 
 /* Bottom right text */
@@ -142,12 +187,19 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     
 
 
-    
+    /*Addresses both images and h1 logos*/
     #menu h1{
         font-size: x-large;
         text-align: center;
         margin-bottom: 20px;
         display:list-item;
+
+    }
+
+    #menu img{
+        display: block;
+        margin-bottom: 20px;
+        align-items: center;
     }
 
     #menu ul{
@@ -182,15 +234,38 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
         line-height: 20px;
     }
 
+    .container{
+        position:relative;
+    }
+
+    .news-bg{
+        
+        content:url("../images/main_img_bg.jpg"); 
+        display:inline-block;
+
+        width: 100vw;
+        margin-top: 35px;
+        margin-bottom: 65px;
+
+    }
+
     /*Body*/
     .about-bg{
-        background-image:url(/assets/images/VolapuqueSofa.jpg); background-size:cover; max-height:200px; background-repeat:no-repeat;    
+        content:url("../images/VolapuqueSofa.jpg"); 
+        display: inline;
+        
+        width: 100vw;
+        margin-top: 35px;
+        margin-bottom: 65px;
+       
+  
         }
 
 
     .container{
         /*Needs something to scale down the image so it fits full size. Currently image's style is embedded in html. Needs way around that.*/
         display:block;
+        background-color: #000000;
     }
 
     /* Bottom right text scaled down */
@@ -199,6 +274,7 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     
     color:#fafafa;
     background-color: rgb(0,0,0);
+    display:inline;
   }
 
   @keyframes box-slide-right {

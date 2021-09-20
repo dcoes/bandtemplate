@@ -1,44 +1,34 @@
 
-The Band template website is a site that is ideally being developed for a band. I’ve spoken to two friends’ bands who were interested in having me create a website for them, and I’m awaiting the official content from them. Being so, I would like to create a structure that allows them to easily update the content when they want to notify fans of a new release or an event that they are playing. Most of these bands have become reliant on social media such as Instagram youtube, and I would like the page to react to those feeds. The page will also redirect to the bands’ download or streaming links according to the user’s preference (spotify, apple music, youtube, amazon music, etc).
+<h1>INTRODUCTION</h1>
+<br>
+This is a template for a band website, being built for a real band. It is meant to give visitors a brief idea about the band, starting with the news section where visitors can be kept up to date with their latest shows or releases. Unlike a business or documentary website, the infomration displayed here is suplementary to the music itself, so the website aims to provide additional information to the bands fans, and direct them to streaming platforms where they can listen to the music itself.
 
+Because the website is directed at a younger audience, the website makes heavy use of photos as backgrounds, with the text infomration displayed over it, following the band's aesthetic and style. As with the music itself, the users are most likely drawn to experimentalism in the images themselves, although like any website, this one still must maintain its purpose of informing its public on relevant information such as shows and releases.
+<br>
+<br>
+<h1>FEATURE:</h1>
 
-Features:
+•	Navigation that is always accessible to users through a floating header at the top of the page.
 
-•	Reconfigurable Navigation based on device (top for mobile, side for desktop/tablet portrait mode). Navigation menu should always be accessible.
+•	With web habits evolving the way they have, and most users, especially in music scenes relying more social media than a traditional website, I thought an ideal feature to have on the website would be a social media feed, where the information would be populated by the band itself, seemlessly through a social media feed of some sort such as instagram, twitter, or facebook.
 
-•	Instagram/Social media feed embedded into news page.
-
-•	Gallery
+•	Responsive gallery that fits the screen size.
 
 •	Contact email form
 
-•	Subscribe to mailing list (for shows, etc)
+•	Discography that directs the user to the band's music on most popular streaming platforms.
 
-•	Discography (linking where to buy or stream)
+<h1>LANDING PAGE:</h1>
+<br>
+<br>
+•	This page contains most of the relevant information starting with the latest news. By scrolling down, users will be able to immediately access other information such as the band's history and the discography, where they will find links taking them to the streaming services/stores. At all times, they can jump directly to the relevant section by clicking on one of the links in the floating header menu above.
 
+<h1>CONTACT:</h1>
+<br>
+<br>
 
+•	This page contains a simple form where users can contact the band via email.
 
-The landing page: 
-This page will feature a nice professional image (hero-image) of the band of some sort.
+<h1>GALLERY:</h1>
 
-Contact:
-This page will feature an email form where the user can contact the band or sign up for their newsletter to be notified of releases and shows.
-
-Gallery: 
-a collection of photos curated by the band.
-
-News: 
-a collection of Instagram articles to keep the page alive.
-
-
-
-Inspiration and sites looked at: 
-•	ilovemetric.com (do not like the navigation not always being accessible)
-
-•	Menzingers.com (nice classy hero image, but do not like it focusing on merchandise).
-
-•	Spanishlovesongs.com (kind of nice scroll down, revealing the images, and finally getting to what matters – reservations to the actual live events. – will have to check as bands I am probably working with won’t have a tour system in place)
-
-•	Mogwai.scot – more or less functional, but not very exciting
-
-
+•	A collection of images, of whatever the band feels imnportant to diplay. This would likely be picture of shows, or even the posters for the shows themslves. As with the news section, this is also content that belongs in the band's hands and not a webmaster as in a traditional website, as the nature of this audience/userbase is so used to dynamic lively content.
