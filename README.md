@@ -6,7 +6,7 @@ This is a template for a band website, being built for a real band. It is meant 
 Because the website is directed at a younger audience, the website makes heavy use of photos as backgrounds, with the text infomration displayed over it, following the band's aesthetic and style. As with the music itself, the users are most likely drawn to experimentalism in the images themselves, although like any website, this one still must maintain its purpose of informing its public on relevant information such as shows and releases.
 <br>
 <br>
-<h1>FEATURE:</h1>
+<h1>FEATURES:</h1>
 
 •	Navigation that is always accessible to users through a floating header at the top of the page.
 

@@ -5,6 +5,7 @@
 * {
     margin: 0;
     padding: 0;
+
 }
 
 .icons-white path{
@@ -39,12 +40,17 @@ body{
     left:0;
     z-index: 1;
     width: 100vw;
+    border-bottom:5px solid #969696;
+
 }
 
 #menu img {
     vertical-align: middle;
     float: left;
     padding: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #menu h1 {
@@ -80,12 +86,14 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
 
     background-color:#000000;
     color: white;
-    display: block;
+    display: flex;
     position: fixed;
     bottom:0;
     left:0;
     width:100vw;
     height: 10vh;
+    justify-content: center;
+    border-top:5px solid #969696;
 
 }
 
@@ -94,9 +102,7 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     list-style-type: none;
     margin-right: 10px;
     padding-top: 10px;
-    justify-content:space-evenly;
-
-
+    display:flex;
 
 }
 
@@ -112,6 +118,11 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     background-size:cover; 
     min-height:600px; 
     background-repeat:no-repeat;
+
+    /*Special additions to space this section apart from header:*/
+    margin-top: 130px;
+    border-top: 2px solid rgba(85, 85, 85);
+
 }
 
 .about-bg{
@@ -133,6 +144,11 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     background-size:cover; 
     height:600px; 
     background-repeat:no-repeat;
+
+    /*Special additions to space this section apart from header:*/
+    margin-top: 130px;
+    border-top: 2px solid rgba(85, 85, 85);
+    
 }
 
 /* Bottom right text */
@@ -142,9 +158,10 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     left: 5%;
     width:30%;
     padding:1%;
-    color:#fafafa;
+    color: #000000;
     border-radius: 10px;
-    background-color: rgba(0,0,0,.25);
+    background-color: rgba(215, 215, 215, 0.75);
+    border:2px solid rgba(0,0,0,.25);
     
     /*Animation Controls*/
     animation-name: box-slide-right;
@@ -163,10 +180,12 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
 
   .title {
 
-    background-color: rgba(255,255,255,.75);
-    color: #000000;
+    background-color: rgba(85, 85, 85, 0.75);
+    color: #fafafa;
     font-size: 200%;
     transform: skew(30deg);
+    border-top:2px solid #969696;
+    border-bottom:2px solid #969696;
 
     /*Animation Controls*/
     animation-name: box-slide-right;
@@ -197,9 +216,12 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     }
 
     #menu img{
+
         display: block;
         margin-bottom: 20px;
-        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+
     }
 
     #menu ul{
@@ -254,9 +276,12 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
         content:url("../images/VolapuqueSofa.jpg"); 
         display: inline;
         
-        width: 100vw;
         margin-top: 35px;
         margin-bottom: 65px;
+
+        height: auto;
+        object-fit: cover;
+        object-position: center;
        
   
         }
