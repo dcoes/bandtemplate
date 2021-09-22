@@ -1,4 +1,7 @@
 
+![image](https://user-images.githubusercontent.com/5614413/134430728-e9bf0fe1-3dba-4657-afc1-83884eff0398.png)
+
+
 <h1>INTRODUCTION</h1>
 <br>
 This is a template for a band website, being built for a real band. It is meant to give visitors a brief idea about the band, starting with the news section where visitors can be kept up to date with their latest shows or releases. Unlike a business or documentary website, the infomration displayed here is suplementary to the music itself, so the website aims to provide additional information to the bands fans, and direct them to streaming platforms where they can listen to the music itself.
