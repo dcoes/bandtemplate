@@ -1,5 +1,5 @@
 
-![image](https://user-images.githubusercontent.com/5614413/134430728-e9bf0fe1-3dba-4657-afc1-83884eff0398.png)
+![image](https://user-images.githubusercontent.com/5614413/134434464-efd6dda1-2019-4734-89a9-05c4a27940b9.png)
 
 
 <h1>INTRODUCTION</h1>
@@ -24,9 +24,14 @@ Because the website is directed at a younger audience, the website makes heavy u
 <h1>LANDING PAGE:</h1>
 <br>
 <br>
+<br>
 •	This page contains most of the relevant information starting with the latest news. By scrolling down, users will be able to immediately access other information such as the band's history and the discography, where they will find links taking them to the streaming services/stores. At all times, they can jump directly to the relevant section by clicking on one of the links in the floating header menu above.
 
+
+
+
 <h1>CONTACT:</h1>
+![image](https://user-images.githubusercontent.com/5614413/134434565-95937494-d0f9-4ee2-9d66-3fd4a6207208.png)
 <br>
 <br>
 
