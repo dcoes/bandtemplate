@@ -31,7 +31,9 @@ Because the website is directed at a younger audience, the website makes heavy u
 
 
 <h1>CONTACT:</h1>
-![image](https://user-images.githubusercontent.com/5614413/134434565-95937494-d0f9-4ee2-9d66-3fd4a6207208.png)
+<br>
+![image](https://user-images.githubusercontent.com/5614413/134434847-9bd833d8-29d0-4429-be88-0388994259e9.png)
+
 <br>
 <br>
 
