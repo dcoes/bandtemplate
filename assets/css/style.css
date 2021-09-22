@@ -311,31 +311,65 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
         position:relative;
     }
 
+
+    /*Section Picture Styling*/
     .news-bg{
         
         content:url("../images/main_img_bg.jpg"); 
         display:inline-block;
 
-        width: 100vw;
+        width: 100%;
         margin-top: 35px;
         margin-bottom: 65px;
+        
+        height: auto;
+        object-fit: cover;
+        object-position: center;
 
     }
 
-    /*Body*/
     .about-bg{
         content:url("../images/VolapuqueSofa.jpg"); 
-        display: inline;
+        display: inline-block;
         
+        width:100%;
         margin-top: 35px;
         margin-bottom: 65px;
 
         height: auto;
         object-fit: cover;
         object-position: center;
-       
   
         }
+    
+        .disco-bg{
+            content:url("../images/disco_bg.jpg"); 
+            display: inline-block;
+            
+            width:100%;
+            margin-top: 35px;
+            /*Increased spacing to set it apart from footer here.*/
+            margin-bottom: 120px;
+    
+            height: auto;
+            object-fit: cover;
+            object-position: center;
+      
+            }
+
+            .contact-bg{
+                content:url("../images/disco_bg2.jpg"); 
+                display: inline-block;
+                
+                width:100%;
+                margin-top: 35px;
+                margin-bottom: 65px;
+        
+                height: auto;
+                object-fit: cover;
+                object-position: center;
+          
+                }
 
 
     .container{
@@ -351,6 +385,7 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     color:#fafafa;
     background-color: rgb(0,0,0);
     display:inline;
+
   }
 
   @keyframes box-slide-right {
