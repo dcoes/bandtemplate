@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&family=Fredericka+the+Great&family=Special+Elite&display=swap');
 
 
-/*do I even need this part??*/
 * {
     margin: 0;
     padding: 0;
@@ -97,7 +96,7 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
 
     background-color:#000000;
     color: white;
-    display: flex;
+    display: inline-block;
     position: fixed;
     bottom:0;
     left:0;
@@ -109,21 +108,34 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
 
 }
 
-.footer li {
+.footer ul {
+    display: inline;
+    padding: 10px;
+    margin:0;
+}
+
+.footer ul li {
 
     list-style-type: none;
     margin-right: 10px;
     padding-top: 10px;
-    display:inline-block;
+    display:inline;
+    text-align: center;
 
 }
 
+/*A class to align items in footer*/
+.centered-list{
 
-
-.container{
-    position:relative;
-
+    display: inline; 
+    justify-content: space-between;
+    font-size: small;
+    list-style-type: none;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 20px;
 }
+
 
 .news-bg{
     background-image:url("../images/main_img_bg.jpg"); 
@@ -200,6 +212,13 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     
 }
 
+
+/*Box that holds content on each section.*/
+.container{
+    position:relative;
+
+}
+
 /* Bottom right text */
 .text-background-right {
     position: relative;
@@ -227,6 +246,7 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
       }
   }
 
+  /*Sliding bar above menu*/
   .title {
 
     background-color: rgba(85, 85, 85, 0.75);
@@ -236,25 +256,24 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     border-top:2px solid #969696;
     border-bottom:2px solid #969696;
 
-    /*Animation Controls*/
+    /*Animation Controls for title*/
     animation-name: box-slide-right;
     animation-duration: 1s;
     animation-fill-mode: forwards;
   }
 
+  /*Text over transparent box*/
   #over-text{
       background:transparent;
       color:#fafafa;
       
   }
 
-
+  /*------------------------------------------------------------------------------------------------*/
   /*------------------------------------------------------------------------------------------------*/
   /*Media Queries Section:*/
   @media only screen and (max-width: 950px) {
     
-
-
     /*Addresses both images and h1 logos*/
     #menu h1{
         font-size: x-large;
@@ -297,18 +316,12 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
         line-height: 20px;
     }
 
-    .centered-list{
 
-        display: flex; justify-content: space-between;
-        font-size: small;
-        list-style-type: none;
-        box-sizing: border-box;
-        text-align: center;
-        line-height: 20px;
-    }
 
     .container{
-        position:relative;
+        /* position:relative; */
+        margin-top: 210px;
+
     }
 
 
@@ -325,7 +338,6 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
         height: auto;
         object-fit: cover;
         object-position: center;
-
     }
 
     .about-bg{
@@ -373,7 +385,7 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
 
 
     .container{
-        /*Needs something to scale down the image so it fits full size. Currently image's style is embedded in html. Needs way around that.*/
+        /*This does not need to be scaled down here, simply changes color and alignment of things.*/
         display:block;
         background-color: #000000;
     }
@@ -385,9 +397,11 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     color:#fafafa;
     background-color: rgb(0,0,0);
     display:inline;
+    align-items: flex-end;
 
   }
 
+  /*Animation info for small box-slide-right*/
   @keyframes box-slide-right {
       from{
           transform:translateX(-20%);
@@ -396,7 +410,8 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
           transform: translateX(0);
       }
   }
-   
+
+  /*Title bar re-arranged to fit under picture*/
     .title {
 
         background-color: rgba(255,255,255,.75);
