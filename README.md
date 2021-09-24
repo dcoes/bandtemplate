@@ -1,10 +1,9 @@
+![image](https://user-images.githubusercontent.com/5614413/134730547-8834194f-c963-4e25-ada7-1ffac5536b4b.png)
 
-![image](https://user-images.githubusercontent.com/5614413/134434464-efd6dda1-2019-4734-89a9-05c4a27940b9.png)
 
-<br>
 <h1>INTRODUCTION</h1>
 <br>
-This is a template for a band website, being built for a real band. It is meant to give visitors a brief idea about the band, starting with the news section where visitors can be kept up to date with their latest shows or releases. Unlike a business or documentary website, the infomration displayed here is suplementary to the music itself, so the website aims to provide additional information to the bands fans, and direct them to streaming platforms where they can listen to the music itself.
+This is a template for a band website. It is meant to give visitors a brief idea about the band, starting with the news section where visitors can be kept up to date with their latest shows or releases. Unlike a business or documentary website, the infomration displayed here is suplementary to the music itself, so the website aims to provide additional information to the bands fans, and direct them to streaming platforms where they can listen to the music itself.
 
 Because the website is directed at a younger audience, the website makes heavy use of photos as backgrounds, with the text infomration displayed over it, following the band's aesthetic and style. As with the music itself, the users are most likely drawn to experimentalism in the images themselves, although like any website, this one still must maintain its purpose of informing its public on relevant information such as shows and releases.
 <br>
@@ -29,8 +28,6 @@ Because the website is directed at a younger audience, the website makes heavy u
 <br>
 <h1>CONTACT:</h1>
 <br>
-
-<br>
 <br>
 
 •	This page contains a simple form where users can contact the band via email.
@@ -42,6 +39,8 @@ Because the website is directed at a younger audience, the website makes heavy u
 •	A collection of images, of whatever the band feels important to diplay. This would likely be picture of shows, or even the posters for the shows themslves. As with the news section, this is also content that belongs in the band's hands and not a webmaster as in a traditional website, as the nature of this audience/userbase is so used to dynamic lively content.
 <br>
 <br>
+
+
 <h1>POST-MORTEM/CONSIDERATIONS:</h1>
 <br>
 
