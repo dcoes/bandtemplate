@@ -109,31 +109,24 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
 }
 
 .footer ul {
-    display: inline;
+    
+    float:none;
+    display: block;
     padding: 10px;
     margin:0;
+    text-align:center;
 }
 
-.footer ul li {
+.footer li {
 
-    list-style-type: none;
+    float: none;
+    display: inline;
+	text-align: center;
     margin-right: 10px;
     padding-top: 10px;
-    display:inline;
-    text-align: center;
+ 
 
-}
 
-/*A class to align items in footer*/
-.centered-list{
-
-    display: inline; 
-    justify-content: space-between;
-    font-size: small;
-    list-style-type: none;
-    box-sizing: border-box;
-    text-align: center;
-    line-height: 20px;
 }
 
 
