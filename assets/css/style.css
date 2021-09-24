@@ -7,6 +7,10 @@
 
 }
 
+body{
+    background-color: #000000;
+}
+
 .icons-white path{
     fill:white;
 }
@@ -27,7 +31,6 @@ body{
     word-spacing: 2px;
 }
 
-/*would like to make menu persistant so that it stays on the top*/
 #menu {
 
     background-color:#000000;
@@ -66,8 +69,6 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
 
 }
 
-
-
 /*Attributes of menu links in default state*/
 #menu a {
     text-decoration: none;
@@ -104,8 +105,6 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     height: 10vh;
     justify-content: center;
     border-top:5px solid #969696;
-
-
 }
 
 .footer ul {
@@ -124,11 +123,7 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
 	text-align: center;
     margin-right: 10px;
     padding-top: 10px;
- 
-
-
 }
-
 
 .news-bg{
     background-image:url("../images/main_img_bg.jpg"); 
@@ -139,7 +134,6 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     /*Special additions to space this section apart from header:*/
     margin-top: 130px;
     border-top: 2px solid rgba(85, 85, 85);
-
 }
 
 .about-bg{
@@ -147,8 +141,8 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     background-size:cover; 
     height:600px; 
     background-repeat:no-repeat;
-
 }
+
 .disco-bg{
     background-image:url("../images/disco_bg.jpg"); 
     background-size:cover; 
@@ -165,8 +159,7 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
 
     /*Special additions to space this section apart from header:*/
     margin-top: 130px;
-    border-top: 2px solid rgba(85, 85, 85);
-    
+    border-top: 2px solid rgba(85, 85, 85); 
 }
 
 .contact-bg > input {
@@ -183,22 +176,17 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
   border-radius: 10px;
   background-color: rgba(85, 85, 85);
   resize: none;
-
 }
 
 .contact-bg > input[type=button], input[type=submit], input[type=reset]{
-
     background-color: #747474;
     color:#fafafa;
     font-weight: 300;
     font-family: 'Special Elite', 'Courier New', Courier, monospace;
-
-    
 }
 
 .photos-bg{
     background-color:#000000;
-
     /*Special additions to space this section apart from header:*/
     margin-top: 130px;
     border-top: 2px solid rgba(85, 85, 85);
@@ -209,7 +197,6 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
 /*Box that holds content on each section.*/
 .container{
     position:relative;
-
 }
 
 /* Bottom right text */
@@ -241,7 +228,6 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
 
   /*Sliding bar above menu*/
   .title {
-
     background-color: rgba(85, 85, 85, 0.75);
     color: #fafafa;
     font-size: 200%;
@@ -259,7 +245,6 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
   #over-text{
       background:transparent;
       color:#fafafa;
-      
   }
 
   /*------------------------------------------------------------------------------------------------*/
@@ -273,7 +258,6 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
         text-align: center;
         margin-bottom: 20px;
         display:list-item;
-
     }
 
     #menu img {
@@ -295,7 +279,6 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
         display: flex; justify-content: space-between;
         flex-direction:row;
         flex-wrap: wrap;
-
     }
 
     /*Trying to get it to line the buttons up in rows*/
@@ -323,11 +306,9 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
         
         content:url("../images/main_img_bg.jpg"); 
         display:inline-block;
-
         width: 100%;
         margin-top: 35px;
         margin-bottom: 65px;
-        
         height: auto;
         object-fit: cover;
         object-position: center;
@@ -336,11 +317,9 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
     .about-bg{
         content:url("../images/VolapuqueSofa.jpg"); 
         display: inline-block;
-        
         width:100%;
         margin-top: 35px;
         margin-bottom: 65px;
-
         height: auto;
         object-fit: cover;
         object-position: center;
@@ -350,12 +329,10 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
         .disco-bg{
             content:url("../images/disco_bg.jpg"); 
             display: inline-block;
-            
             width:100%;
             margin-top: 35px;
             /*Increased spacing to set it apart from footer here.*/
             margin-bottom: 120px;
-    
             height: auto;
             object-fit: cover;
             object-position: center;
@@ -365,15 +342,12 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
             .contact-bg{
                 content:url("../images/disco_bg2.jpg"); 
                 display: inline-block;
-                
                 width:100%;
                 margin-top: 35px;
                 margin-bottom: 65px;
-        
                 height: auto;
                 object-fit: cover;
                 object-position: center;
-          
                 }
 
 
@@ -426,9 +400,4 @@ font-family: 'Fredericka the Great', 'Courier New', Courier, monospace;
             transform: translateX(0);
         }
     }
-
-    
-    /*Footer*/
-
-
   }
